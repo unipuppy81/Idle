@@ -33,9 +33,11 @@ public class Manager : MonoBehaviour
 
     #region Manage
     private readonly AssetManager asset = new();
+    private readonly DataManager data = new();
     private readonly GameManager game = new();
 
     public static AssetManager Asset => instance != null ? instance.asset : null;
+    public static DataManager Data => instance != null ? instance.data : null;
     public static GameManager Game => instance != null ? instance.game : null;
     #endregion
 }

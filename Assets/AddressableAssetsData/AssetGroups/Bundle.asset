@@ -29,6 +29,12 @@ MonoBehaviour:
     m_SerializedLabels:
     - Bundle
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e53f08d89b4aa44d851f621436cb23c
+    m_Address: Assets/Resources_Addressable/Prefabs/UI/Display_Resources.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 75ce9bbba5ec0bb448c6f7122acd74e0, type: 2}
   m_SchemaSet:

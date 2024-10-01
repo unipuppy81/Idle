@@ -5,3 +5,9 @@ public enum PlayerState
     Battle,
     Die
 }
+
+// UI Event 타입 열거형
+public enum UIEventType
+{
+    Click, PointerDown, PointerUp, Drag,
+}
