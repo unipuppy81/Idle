@@ -18,19 +18,271 @@ MonoBehaviour:
   m_GUID: 4124eab110f6842498c5b37afc0135a1
   m_SerializeEntries:
   - m_GUID: 490a9f66670ae3e48a0b20fe3be04480
-    m_Address: Prefabs/UI/BackGround
+    m_Address: Assets/Resources_Addressable/Prefabs/UI/BackGround
     m_ReadOnly: 0
     m_SerializedLabels:
     - Bundle
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1d235f37b2e43244ebcb41fbbfa1bc42
-    m_Address: Prefabs/GameObject/PlayerFrame
+    m_Address: Assets/Resources_Addressable/Prefabs/GameObject/PlayerFrame
     m_ReadOnly: 0
     m_SerializedLabels:
     - Bundle
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5e53f08d89b4aa44d851f621436cb23c
     m_Address: Assets/Resources_Addressable/Prefabs/UI/Display_Resources.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cee0e16b2b4f7d4b98203d5b8b9f845
+    m_Address: Assets/Resources_Addressable/Prefabs/GameObject/EnemyFrame.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d96f9d71faf55c74aa120e82b3dd088b
+    m_Address: Assets/Resources_Addressable/Prefabs/GameObject/EnemyProjectileFrame.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e010e27a4d1baf84289977e70b4983aa
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Devil/B_Predator.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4798703d05affdd468141dc926f43d56
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Devil/B_DarkArchmage.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d0f9f055aab8bf4496cbc9fed8e5a00
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Devil/DevilDog.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00ac7afcc1f1d3449bb07a7f89a5fc8b
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Devil/DevilMonkey.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6d64bfc2e87fe845ad45914dbb2d7b0
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Devil/DevilOwl.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 439df08752419ac4f925596203b47aab
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Devil/DevilSlime.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecea7838050fa7f46a1b97e54a78225e
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Devil/Gargoyle.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b18e730620542cd4f8ad752cb3cdd4f6
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Devil/EnemyBlueprint.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bed7b7e4fa012f45854f5d83706caf7
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Field/B_Rhinoceros.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e6d12bd2d86f284c8ca627f01bd69af
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Field/B_StoneGolem.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bd642cba9947d1418cd37d4e963f2c7
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Field/Evileye.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b337d894cc9d73e46a14a3a73fc8f59a
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Field/Hunter.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afdad52621939ff4b9315e9a01e19b4a
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Field/Mimic.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32e041a863dbfde4cad3265595eb576d
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Field/RageDog.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0997f472b7f2c6842a5e47dac9a88745
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Field/Slime1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 833879426ad724c4eaf35367733584c5
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Field/Slime2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7cd8cef60cb40c247a503d3f47d32b1c
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Forest/B_Butcher.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12d61be9a65cde94db79b3f914ad5497
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Forest/B_Minotauros.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3e9381e518122543ab726105e84d74a
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Forest/Bug.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccea6417fb67773499242e456dedfc71
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Forest/Mushroom1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82fad6f7f0f56f74bba2e3b56ba21c66
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Forest/Mushroom2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a23fd5f8b66e1714fafb15440747f19a
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Forest/Raptor.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f19d97c6f473a1b4b87d204f3863daec
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Forest/RockMonster.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56551b315fdff824381c42e25046dac6
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Forest/WoodMonster.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0f7ed4e697ec754bafbc9d23666586a
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Ice/B_IceDragon.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73a83e90797734d42940816bdfabe709
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Ice/B_IceGuardian.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fe3c088b38b1064c88d46d5d6fcad58
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Ice/IceCrab.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a432ecda62f52e42ba686e77bf9fbbe
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Ice/IceMage.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8851bb757535d14abe6a4a02be385d7
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Ice/IceNeedle.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 078d21702acfdb845a68511dfac66ffd
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Ice/IceSlime.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07d2855c84ad7154dba5f134ece77dff
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Ice/Snowman.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99eb307128ab05c42866eab650581ab1
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Ice/Yeti.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 560a53f2c6eb7a742b8f2070e8e3616c
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Sea/B_BlackShark.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2ae65de68228834bb3bbf536c871f3c
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Sea/B_FishMan.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2efd9b769d6b9b4089af94b82a12489
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Sea/DevilOctopus.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d94914dcd08d92428f2466ab4d56a5d
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Sea/JellyFish.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88e5ac9b5c0376d4f90c960db2432aec
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Sea/MonkFish.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2096754432c8a9b4c8c1436f3b794a3f
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Sea/RazorShell.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a48eeea58dd432948b56a3565b051b8a
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Sea/Shell.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Bundle
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00b92aeb4d6951e41962ba8b513c07dd
+    m_Address: Assets/Resources_Addressable/Blueprints/Enemy/Sea/TurbanSnail.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Bundle

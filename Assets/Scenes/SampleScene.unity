@@ -1503,6 +1503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54be73f93a753fd41ab936325338dfde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uiTopMain: {fileID: 1479076661}
   playerSpawnPoint: {fileID: 322749551}
   enemySpawnPoint:
   - {fileID: 263408873}

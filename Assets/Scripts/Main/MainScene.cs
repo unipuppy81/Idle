@@ -3,7 +3,7 @@ using UnityEngine;
 public class MainScene : MonoBehaviour
 {
     #region Fields
-
+    [SerializeField] private UiTopScene uiTopMain;
     [SerializeField] private Transform playerSpawnPoint;
     [SerializeField] private Transform[] enemySpawnPoint;
     private bool isLoadComplete = false;
@@ -22,9 +22,12 @@ public class MainScene : MonoBehaviour
     {
         Manager.Asset.LoadAllAsync((count, totalCount) =>
         {
+            uiTopMain.UpdateLoading(count, totalCount);
+
             if (count >= totalCount)
             {
                 isLoadComplete = true;
+                uiTopMain.UpdateLoadingComplete();
             }
         });
     }
@@ -37,6 +40,7 @@ public class MainScene : MonoBehaviour
     public void SceneStart()
     {
         Manager.Game.PlayerInit(playerSpawnPoint.position);
+        //Manager.UI.ShowScene<UiSceneMain>();
     }
 
     private Transform BossSpawnPointAdd()

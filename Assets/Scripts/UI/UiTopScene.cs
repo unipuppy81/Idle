@@ -30,6 +30,7 @@ public class UiTopScene : UiBase
         SetButtons();
 
         player = Manager.Game.player;
+        Manager.UI.InitTop(this);
     }
 
     private void SetTexts()
